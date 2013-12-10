@@ -252,11 +252,11 @@ section div a:hover {
 	}
 	
 	h1 {
-		-webkit-filter: blur(0px);
-		-moz-filter: blur(0px);
-		-ms-filter: blur(0px);
-		-o-filter: blur(0px);
-		filter: blur(0px);
+		opacity: .3;
+	}
+	
+	h1:hover {
+		opacity: 1;
 	}
 }
 
