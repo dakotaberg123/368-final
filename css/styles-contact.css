@@ -223,6 +223,7 @@ section div a:hover {
 	section img {
 		margin: 20% 0 0 0;
 	}
+
 }
 
 /*-------768px--------*/
@@ -275,6 +276,9 @@ section div a:hover {
 		margin: 0 25%;
 	}
 	
+	.linked-in {
+		visibility: hidden;
+	}
 }
 
 /*-------480px--------*/
