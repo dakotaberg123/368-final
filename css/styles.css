@@ -32,6 +32,7 @@ ul {
 	padding: 0;
 	float: right;
 	border-bottom: 1px solid white;
+	background: red;
 }
 
 ul a {
