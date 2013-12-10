@@ -1,0 +1,282 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* color guide start */
+
+Primary: white
+Seconary: #00FA9A
+
+/* color guide end */
+
+html {
+	background: black;
+	background-image: url("content/img/broken-noise.jpg");
+}
+
+#wrapper {
+	margin: 0em auto;
+	padding: 0;
+	width: 100%;
+	max-width: 960px;
+}
+
+.logo img {
+	margin: 0 0 0 .6em;
+	padding: 0;
+	width: 20%;
+}
+
+ul {
+	margin: 5% 0 15% 0;
+	padding: 0;
+	float: right;
+	border-bottom: 1px solid white;
+}
+
+ul a {
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: .9em;
+	color: white;
+	text-decoration: none;
+	padding: 2em 0 0 0;
+}
+
+li {
+	float: left;
+	list-style: none;
+	margin: 1vw 0 0 2vw;
+	padding: 0 0 .09em 0;
+}
+
+li a:hover {
+	border-bottom: 2px solid white;
+	outline: none;
+}
+
+li a:active {
+	border-bottom: 2px solid #00FA9A;
+}
+
+
+
+section div img {
+	width: 70%;
+	margin: 0 auto;
+	display: block;
+}
+
+footer {
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: .7em;
+	color: white;
+	text-align: center;
+	margin: 12em 0 2em 0;
+	padding: 0;
+}
+
+h1 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	color: white;
+	text-align: center;
+	padding: 0;
+	-webkit-filter: blur(2.5px);
+	-moz-filter: blur(2.5px);
+	-ms-filter: blur(2.5px);
+	-o-filter: blur(2.5px);
+	filter: blur(2.5px);
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	-ms-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+}
+
+h1:hover {
+	-webkit-filter: blur(0px);
+	-moz-filter: blur(0px);
+	-ms-filter: blur(0px);
+	-o-filter: blur(0px);
+	filter: blur(0px);
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	-ms-transition: 1s;
+	-o-transition: 1s;
+	transition: 1s;
+}
+
+p, 
+section div a {
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: 1em;
+	color: white;
+	line-height: 3;
+	text-align: center;
+	text-decoration: none;
+	margin: 0;
+	-webkit-transition: 1.2s;
+	-moz-transition: 1.2s;
+	-ms-transition: 1.2s;
+	-o-transition: 1.2s;
+	transition: 1.2s;
+}
+
+section div a:hover {
+	color: #00FA9A;
+	-webkit-transition: 1.2s;
+	-moz-transition: 1.2s;
+	-ms-transition: 1.2s;
+	-o-transition: 1.2s;
+	transition: 1.2s;
+}
+
+/* social media icons */
+
+.social-media {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.social-media ul {
+	border: none;
+	margin: 10% 42% 2% 0;
+	font-family: 'Lato', sans-serif;
+	font-size: .85em;
+}
+
+.social-media li {
+	list-style: none;
+	margin: 0 10px;
+}
+
+.social-media li a:hover {
+	border: none;
+}
+
+.social-media li a:active {
+	border: none;
+}
+
+.social-media li a.facebook {
+	background: url("../content/img/Social-media.png") no-repeat -12px -13px;
+	width: 26px;
+	height: 26px;
+}
+
+.social-media li a:hover.facebook {
+	background: url("../content/img/Social-media.png") no-repeat -12px -63px;
+	width: 26px;
+	height: 26px;
+}
+
+.social-media li a.twitter {
+	background: url("../content/img/Social-media.png") no-repeat -62px -13px;
+	width: 26px;
+	height: 26px;
+}
+
+.social-media li a:hover.twitter {
+	background: url("../content/img/Social-media.png") no-repeat -62px -63px;
+	width: 26px;
+	height: 26px;
+}
+
+.social-media li a.linked-in {
+	background: url("../content/img/Social-media.png") no-repeat -112px -13px;
+	width: 26px;
+	height: 26px;
+}
+
+.social-media li a:hover.linked-in {
+	background: url("../content/img/Social-media.png") no-repeat -112px -63px;
+	width: 26px;
+	height: 26px;
+}
+
+/*------------MEDIA QUERIES-------------*/
+
+/*-------1200px--------*/
+@media screen and (max-width:1200px) {
+	.logo img {
+		width: 20%;
+		margin: 0;
+	}
+}
+
+/*-------1024px--------*/
+@media screen and (max-width:1024px) {
+	ul {
+		width: 100%;
+	}
+
+	.grid-25 li {
+		margin: 1vw 0 0 2vw;
+		padding: 0;
+	}
+
+	section img {
+		margin: 20% 0 0 0;
+	}
+}
+
+/*-------768px--------*/
+@media screen and (max-width:768px) {
+
+	ul {
+		margin: 0 0 5% 0;
+		padding: 0;
+	}	
+
+	.grid-25 li {
+		width: 20%;
+		margin: 0 0 0 13%;
+	}
+
+	section img {
+		width: 100%;
+		margin: 4% 0;
+		opacity: 1;
+	}
+
+	.logo img {
+		width: 30%;
+		margin: 0 35%;
+		padding: 0;
+	}
+	
+	h1 {
+		-webkit-filter: blur(0px);
+		-moz-filter: blur(0px);
+		-ms-filter: blur(0px);
+		-o-filter: blur(0px);
+		filter: blur(0px);
+	}
+}
+
+
+/*-------480px--------*/
+@media screen and (max-width:480px) {
+	.grid-25 li {
+		width: 20%;
+		margin: 0 0 0 11%;
+	}
+
+	section div img {
+		width: 100%;
+	}
+
+	.logo img {
+		width: 50%;
+		margin: 0 25%;
+	}
+	
+}
+
+
+
+

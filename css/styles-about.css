@@ -1,0 +1,154 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* color guide start */
+
+Primary: white
+Seconary: #00FA9A
+
+/* color guide end */
+
+html {
+	background: black;
+	background-image: url("content/img/broken-noise.jpg");
+}
+
+#wrapper {
+	margin: 0em auto;
+	padding: 0;
+	width: 100%;
+	max-width: 960px;
+}
+
+.logo img {
+	margin: 0 0 0 .6em;
+	padding: 0;
+	width: 20%;
+}
+
+ul {
+	margin: 5% 0 0 0;
+	padding: 0;
+	float: right;
+	border-bottom: 1px solid white;
+}
+
+ul a {
+		font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: .9em;
+	color: white;
+	text-decoration: none;
+	padding: 2em 0 0 0;
+}
+li {
+	float: left;
+	list-style: none;
+	margin: 1vw 0 0 2vw;
+	padding: 0 0 .09em 0;
+}
+
+li a:hover {
+	border-bottom: 2px solid white;
+	outline: none;
+}
+
+li a:active {
+	border-bottom: 2px solid #00FA9A;
+}
+
+
+section div img {
+	width: 70%;
+	margin: 0 auto;
+	display: block;
+}
+
+
+footer {
+	font-family: 'Lato', sans-serif;
+	font-weight: 100;
+	font-size: .7em;
+	color: white;
+	text-align: center;
+	margin: 5em 0 2em 0;
+	padding: 0;
+}
+
+
+
+
+
+
+/*------------MEDIA QUERIES-------------*/
+
+/*-------1200px--------*/
+@media screen and (max-width:1200px) {
+	.logo img {
+		width: 20%;
+		margin: 0;
+	}
+}
+
+/*-------1024px--------*/
+@media screen and (max-width:1024px) {
+	ul {
+		width: 100%;
+	}
+
+	li {
+		margin: 1vw 0 0 2vw;
+		padding: 0;
+	}
+
+}
+
+/*-------768px--------*/
+@media screen and (max-width:768px) {
+
+	ul {
+		margin: 0 0 5% 0;
+		padding: 0;
+	}	
+
+	li {
+		width: 20%;
+		margin: 0 0 0 13%;
+	}
+
+	section img {
+		width: 100%;
+		margin: 4vw 0;
+		opacity: 1;
+	}
+
+	.logo img {
+		width: 30%;
+		margin: 0 35%;
+		padding: 0;
+	}
+	
+}
+
+
+/*-------480px--------*/
+@media screen and (max-width:480px) {
+	li {
+		width: 20%;
+		margin: 0 0 0 11%;
+	}
+
+	section div img {
+		width: 100%;
+	}
+
+	.logo img {
+		width: 50%;
+		margin: 0 25%;
+	}
+	
+}
+
+
+
+
