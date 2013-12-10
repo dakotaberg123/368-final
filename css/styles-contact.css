@@ -143,6 +143,7 @@ section div a:hover {
 }
 
 .social-media li {
+	background: url("..content/img/social-media.png") no-repeat;
 	list-style: none;
 	margin: 0 10px;
 	padding: 0 0 0 2em;
@@ -157,31 +158,31 @@ section div a:hover {
 }
 
 .social-media li a.facebook {
-	background: url("../content/img/Social-media.png") no-repeat -12px -13px;
+	background-position: -12px -13px;
 	width: 26px;
 	height: 26px;
 }
 
 .social-media li a:hover.facebook {
-	background: url("../content/img/Social-media.png") no-repeat -12px -63px;
+	background-position:  -12px -63px;
 	width: 26px;
 	height: 26px;
 }
 
 .social-media li a.twitter {
-	background: url("../content/img/Social-media.png") no-repeat -62px -13px;
+	background-position:  -62px -13px;
 	width: 26px;
 	height: 26px;
 }
 
 .social-media li a:hover.twitter {
-	background: url("../content/img/Social-media.png") no-repeat -62px -63px;
+	background-position: -62px -63px;
 	width: 26px;
 	height: 26px;
 }
 
 .social-media li a.linked-in {
-	background: url("../content/img/Social-media.png") no-repeat -112px -13px;
+	background-position: -112px -13px;
 	width: 26px;
 	height: 26px;
 }
