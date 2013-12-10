@@ -83,11 +83,7 @@ h1 {
 	color: white;
 	text-align: center;
 	padding: 0;
-	-webkit-filter: blur(2.5px);
-	-moz-filter: blur(2.5px);
-	-ms-filter: blur(2.5px);
-	-o-filter: blur(2.5px);
-	filter: blur(2.5px);
+	opacity: .3;
 	-webkit-transition: 1s;
 	-moz-transition: 1s;
 	-ms-transition: 1s;
@@ -96,11 +92,7 @@ h1 {
 }
 
 h1:hover {
-	-webkit-filter: blur(0px);
-	-moz-filter: blur(0px);
-	-ms-filter: blur(0px);
-	-o-filter: blur(0px);
-	filter: blur(0px);
+	opacity: 1;
 	-webkit-transition: 1s;
 	-moz-transition: 1s;
 	-ms-transition: 1s;
@@ -249,14 +241,6 @@ section div a:hover {
 		width: 30%;
 		margin: 0 35%;
 		padding: 0;
-	}
-	
-	h1 {
-		opacity: .3;
-	}
-	
-	h1:hover {
-		opacity: 1;
 	}
 }
 
