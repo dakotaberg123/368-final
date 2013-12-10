@@ -260,27 +260,6 @@ section div a:hover {
 	}
 }
 
-/*-------720px--------*/
-@media screen and (max-width:720px) {
-	li {
-		width: 20%;
-		margin: 0 0 0 13%;
-	}
-
-	section a img {
-		width: 100%;
-	}
-
-	.logo img {
-		width: 50%;
-		margin: 0 25%;
-	}
-	
-	.linked-in {
-		visibility: hidden;
-	}
-}
-
 /*-------480px--------*/
 @media screen and (max-width:480px) {
 	.grid-25 li {
