@@ -46,7 +46,7 @@ ul a {
 li {
 	float: left;
 	list-style: none;
-	margin: 1vw 0 0 2vw;
+	margin: 1em 0 0 2em;
 	padding: 0 0 .09em 0;
 }
 
@@ -216,7 +216,7 @@ section div a:hover {
 	}
 
 	.grid-25 li {
-		margin: 1vw 0 0 2vw;
+		margin: 1em 0 0 2em;
 		padding: 0;
 	}
 
