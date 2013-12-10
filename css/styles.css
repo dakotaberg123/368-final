@@ -68,11 +68,6 @@ h2 {
 	text-align: center;
 	padding: 0;
 	width: 100%;
-	-webkit-filter: blur(2.5px);
-	-moz-filter: blur(2.5px);
-	-ms-filter: blur(2.5px);
-	-o-filter: blur(2.5px);
-	filter: blur(2.5px);
 	-webkit-transition: 1s;
 	-moz-transition: 1s;
 	-ms-transition: 1s;
@@ -81,11 +76,7 @@ h2 {
 }
 
 h2:hover {
-	-webkit-filter: blur(0px);
-	-moz-filter: blur(0px);
-	-ms-filter: blur(0px);
-	-o-filter: blur(0px);
-	filter: blur(0px);
+	opacity: 1;
 	-webkit-transition: 1s;
 	-moz-transition: 1s;
 	-ms-transition: 1s;
