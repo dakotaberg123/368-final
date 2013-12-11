@@ -208,7 +208,7 @@ section div a:hover {
 		width: 100%;
 	}
 
-	.grid-25 li {
+	.grid40 li {
 		margin: 1em 0 0 2em;
 		padding: 0;
 	}
@@ -227,7 +227,7 @@ section div a:hover {
 		padding: 0;
 	}	
 
-	.grid-25 li {
+	.grid-40 li {
 		width: 20%;
 		margin: 0 0 0 13%;
 	}
@@ -252,7 +252,7 @@ section div a:hover {
 
 /*-------480px--------*/
 @media screen and (max-width:480px) {
-	.grid-25 li {
+	.grid-40 li {
 		width: 20%;
 		margin: 0 0 0 11%;
 	}
