@@ -243,6 +243,11 @@ section div a:hover {
 		margin: 0 35%;
 		padding: 0;
 	}
+	
+	.social-media ul {
+		margin: 10% 12% 2% 0;
+	}
+
 }
 
 /*-------480px--------*/
