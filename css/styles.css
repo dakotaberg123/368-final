@@ -121,21 +121,9 @@ footer {
 	text-align: center;
 	margin: 5em 0 2em 0;
 	padding: 0;
-}
-
-/*---Sprites---*/
-
-/*
-div a .home {
-	display: block;
 	float: left;
-	margin: 0;
-	height: 32px;
-	width: 32px;
-	background-image: url("content/img/sprite-map/png") no-repeat;
-	background-position: 32px 0px;
+	clear: both;
 }
-*/
 
 
 /*------------MEDIA QUERIES-------------*/
